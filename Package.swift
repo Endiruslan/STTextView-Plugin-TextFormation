@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "TextFormationPlugin", targets: ["TextFormationPlugin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/STTextView", from: "2.2.1"),
+        .package(url: "https://github.com/Endiruslan/STTextView", branch: "dynamic-completion-size-v2"),
         .package(url: "https://github.com/ChimeHQ/TextFormation", from: "0.9.0"),
         .package(url: "https://github.com/ChimeHQ/TextStory", from: "0.9.0"),
     ],
